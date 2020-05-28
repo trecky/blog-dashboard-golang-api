@@ -14,7 +14,6 @@ import (
 	"github.com/trecky/blog-dashboard-golang-api/api/responses"
 	"github.com/trecky/blog-dashboard-golang-api/api/utils/formaterror"
 )
-
 func (server *Server) CreatePost(w http.ResponseWriter, r *http.Request) {
 
 	body, err := ioutil.ReadAll(r.Body)

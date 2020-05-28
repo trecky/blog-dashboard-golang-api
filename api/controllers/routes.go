@@ -1,7 +1,6 @@
 package controllers
 
 import "github.com/trecky/blog-dashboard-golang-api/api/middlewares"
-
 func (s *Server) initializeRoutes() {
 
 	// Home Route
